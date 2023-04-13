@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+     x:Class="FitnessTest.ExercisePage"
+    Title="Exercise">
+    <StackLayout>
+        <Label Text="Muscle group:"/>
+        <Entry x:Name="txtMuscleGroup" />
+        <Button Text="Search" Clicked="OnSearchClicked" />
+        <Label x:Name="txtExercise" TextColor="White" FontSize="Title" FontAttributes="Bold" Padding="30,10,30,1"/>
+    </StackLayout>
+</ContentPage>

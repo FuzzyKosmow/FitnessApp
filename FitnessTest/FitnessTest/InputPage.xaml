@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessTest.InputPage"
+                 Title="Input">
+    <StackLayout>
+        <Label Text="Enter Weight(KG):"/>
+        <Entry x:Name="txtWeight"/>
+        <Label Text="Enter Height(Meter):"/>
+        <Entry x:Name="txtHeight"/>
+        <Label Text="Enter Age:"/>
+        <Entry x:Name="txtAge"/>
+        <Label Text="Select Gender:"/>
+        <StackLayout Orientation="Horizontal">
+            <RadioButton Content="Male" GroupName="Gender" x:Name="rbMale"/>
+            <RadioButton Content="Female" GroupName="Gender" x:Name="rbFemale"/>
+        </StackLayout>
+        <Button Text="Confirm" Clicked="Button_Clicked"/>
+        <Label x:Name="lblCalorieIntake" TextColor="White" IsVisible="False" FontSize="Title" Padding="30,10,30,10"/>
+    </StackLayout>
+</ContentPage>
