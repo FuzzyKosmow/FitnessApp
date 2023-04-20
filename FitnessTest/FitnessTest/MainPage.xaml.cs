@@ -13,7 +13,7 @@ namespace FitnessTest
 {
     public partial class MainPage :  Shell
     {
-        string apiKeyForExercise = "ViGEWR4sqcv9iyB8zDL+5Q==9Qn1BYDXebUkkSX4";
+        string apiKeyForExercise;
         public MainPage()
         {
             InitializeComponent();
